@@ -1,3 +1,4 @@
+
 alias api.up="docker compose up -d"
 alias api.down="docker compose down"
 alias api="docker exec -it api"
@@ -5,3 +6,5 @@ alias api.logs="docker logs -f api"
 alias api.bash="api bash"
 alias api.composer="api composer"
 alias api.php="api php"
+alias api.install="api.composer install"
+alias api.update="api.composer update"
