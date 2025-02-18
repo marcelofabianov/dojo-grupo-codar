@@ -1,8 +1,8 @@
 services:
-  app:
-    container_name: app
+  api:
+    container_name: api
     build:
-      context: .
+      context: ./.docker/api
     restart: always
     command: php -S 0.0.0.0:8001 -t public
     volumes:
