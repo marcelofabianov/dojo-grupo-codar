@@ -41,3 +41,13 @@ composer lint
 ```bash
 composer analyze
 ```
+
+### Carregue nossos alias
+
+```bash
+source .alias.sh
+```
+
+```bash
+cat .alias.sh
+```
