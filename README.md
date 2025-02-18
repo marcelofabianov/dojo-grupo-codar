@@ -9,11 +9,11 @@ O objetivo desse repositório é criar exemplos de código para estudo de SOLID
 Para rodar o ambiente você precisa ter o docker e docker-compose instalados.
 
 ```bash
-git clone git@github.com:marcelofabianov/dojo-codar-solid.git
+git clone git@github.com:marcelofabianov/dojo-grupo-codar.git
 ```
 
 ```bash
-cd dojo-codar-solid
+cd dojo-grupo-codar
 ```
 
 ```bash
@@ -28,14 +28,16 @@ docker exec -it app bash
 composer install
 ```
 
-### Rodando os testes
-
-```bash
-./vendor/bin/phpunit tests
-```
-
-ou 
+### Comandos Importantes
 
 ```bash
 composer test
+```
+
+```bash
+composer lint
+```
+
+```bash
+composer analyze
 ```
