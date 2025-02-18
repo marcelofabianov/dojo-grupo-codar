@@ -1,7 +1,7 @@
 {
     "config": {
         "run-mode": "docker",
-        "run-exec": "docker exec app"
+        "run-exec": "docker exec api"
     },
     "commit-msg": {
         "enabled": false,
